@@ -5,53 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Main2Activity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre Perro"
-        android:id="@+id/txtNombrePerro"/>
+        android:hint="Nombre Gato"
+        android:id="@+id/txtNombreGato"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Raza"
-        android:id="@+id/txtRazaPerro"/>
+        android:id="@+id/txtRazaGato"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Edad"
-        android:id="@+id/txtEdadPerro"/>
+        android:id="@+id/txtEdadGato"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Descripcion"
-        android:id="@+id/txtDescripcionPerro"/>
+        android:id="@+id/txtDescripcionGato"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="INSERTAR"
-        android:id="@+id/btnInsertarPerro"/>
+        android:id="@+id/btnInsertarGato"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ELIMINAR"
-        android:id="@+id/btnEliminarPerro"/>
+        android:id="@+id/btnEliminarGato"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ACTUALIZAR"
-        android:id="@+id/btnActualizarPerro"/>
+        android:id="@+id/btnActualizarGato"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="CONSULTAR"
-        android:id="@+id/btnConsultarPerro"/>
+        android:id="@+id/btnConsultarGato"/>
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/ListaPerros"/>
+        android:id="@+id/ListaGato"/>
 
 </LinearLayout>
